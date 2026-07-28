@@ -73,5 +73,3 @@ Throughout this journey, I am developing proficiency in:
 # Journey Structure
 
 This repository is organized by milestones and completed work.
-
-Example:
