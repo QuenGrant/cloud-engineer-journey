@@ -1,75 +1,139 @@
-# Cloud Engineer Journey 🚀
+# ☁️ Cloud Engineer Journey
 
-## Overview
+Documenting my transition from IT Infrastructure to Cloud Engineering through hands-on AWS, Linux, Terraform, Python, Docker, Kubernetes, and automation projects.
 
-Welcome to my cloud engineering journey.
-
-This repository documents my transition deeper into cloud engineering through consistent hands-on practice, infrastructure projects, automation, troubleshooting, and continuous learning.
-
-My goal is to develop the practical skills required to design, deploy, secure, automate, and support modern cloud environments.
-
-This repository serves two purposes:
-
-1. A professional portfolio demonstrating my technical growth and hands-on experience.
-2. A transparent engineering journal documenting my learning process, challenges, solutions, and lessons learned.
+My goal is to develop the practical skills required to design, deploy, secure, automate, and support modern cloud environments through consistent hands-on practice and real-world projects.
 
 ---
 
 # About Me
 
-I am an IT infrastructure professional building deeper expertise in cloud engineering.
+My name is Quentin Grant, and I am an IT infrastructure professional expanding my expertise into cloud engineering.
 
 My background includes:
 
-- IT operations
-- Networking fundamentals
-- AWS cloud technologies
-- Linux administration
-- Infrastructure troubleshooting
-- Automation concepts
+- IT Operations
+- Networking Fundamentals
+- AWS Cloud Technologies
+- Linux Administration
+- Infrastructure Troubleshooting
+- Automation Concepts
 
-I am expanding these skills through practical implementation of cloud technologies and production-style projects.
+Education & Certifications:
+
+- Master of Science in Information Systems
+- AWS Certified Cloud Practitioner
+
+I am building deeper cloud engineering expertise through hands-on labs, infrastructure projects, automation, and continuous learning.
 
 ---
 
-# Cloud Engineering Focus Areas
+# Technical Focus Areas
 
-Throughout this journey, I am developing proficiency in:
+## ☁️ Cloud Platforms
 
-## Cloud Platforms
 - AWS
-- Cloud infrastructure design
-- Identity and access management
-- Networking
-- Monitoring
-- Security best practices
+- EC2
+- S3
+- IAM
+- VPC
+- CloudWatch
+- CloudFormation
+- Lambda
 
-## Operating Systems
-- Linux administration
-- Command-line operations
-- System troubleshooting
-- Shell scripting
+## 🖥️ Systems Administration
 
-## Infrastructure as Code
+- Linux Administration
+- Command Line Operations
+- System Troubleshooting
+- Bash Scripting
+
+## 🏗️ Infrastructure as Code
+
 - Terraform
-- Infrastructure automation
-- Cloud resource provisioning
-- Configuration management
+- Infrastructure Automation
+- Cloud Resource Provisioning
 
-## DevOps Practices
-- Git and GitHub workflows
-- CI/CD concepts
+## ⚙️ DevOps Practices
+
+- Git & GitHub
 - Docker
 - Kubernetes
-- Automation
+- CI/CD Concepts
+- Automation Workflows
 
-## Programming & Automation
+## 💻 Programming
+
 - Python
-- Bash scripting
-- Cloud automation tools
+- Bash
 
 ---
 
-# Journey Structure
+# Cloud Engineer Journey Progress
 
-This repository is organized by milestones and completed work.
+| Milestone | Status |
+|---|---|
+| Cloud Engineer Portfolio Setup | ✅ Complete |
+| Git & GitHub Workflow | ✅ Complete |
+| Development Environment Setup | ✅ Complete |
+| Linux Fundamentals | 🟡 In Progress |
+| AWS Infrastructure Projects | ⬜ Planned |
+| Terraform Projects | ⬜ Planned |
+| Python Automation Projects | ⬜ Planned |
+| Docker & Kubernetes | ⬜ Planned |
+| CI/CD Implementation | ⬜ Planned |
+
+---
+
+# Repository Structure
+
+```
+Cloud-Engineer-Journey/
+│
+├── README.md
+├── Day-01-Linux-Foundation/
+├── AWS/
+├── Terraform/
+├── Python/
+├── Docker/
+├── Kubernetes/
+├── Projects/
+└── Notes/
+```
+
+---
+
+# Current Objectives
+
+- Strengthen Linux administration skills
+- Build hands-on AWS infrastructure projects
+- Automate cloud deployments using Terraform
+- Develop scripting skills with Python and Bash
+- Practice real-world troubleshooting scenarios
+- Build production-style cloud engineering projects
+
+---
+
+# Learning Philosophy
+
+This repository documents my growth through hands-on implementation rather than theory alone.
+
+Each lab, project, and challenge is designed to strengthen practical engineering skills, improve troubleshooting ability, and build experience with technologies used in modern cloud environments.
+
+---
+
+# Connect With Me
+
+**LinkedIn**
+
+https://www.linkedin.com/in/quentingrant
+
+**GitHub**
+
+https://github.com/QuenGrant
+
+---
+
+Thank you for visiting my Cloud Engineer Journey.
+
+This repository represents my commitment to continuous learning, practical experience, and building the skills necessary to become a successful cloud engineer.
