@@ -51,3 +51,15 @@ AWS resources are stopped or removed when they are not required for active devel
 ## Status
 
 Capstone in progress.
+
+## EC2 Compute Layer
+
+- Amazon Linux 2023
+- Instance type: t3.micro
+- EC2 instance: cloud-operations-ec2
+- Deployed in the public application subnet
+- Protected by cloud-operations-ec2-sg
+- SSH connectivity validated
+- Instance configuration validated
+- Instance stopped when not actively required to control AWS costs
+
