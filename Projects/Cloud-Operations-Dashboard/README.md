@@ -123,3 +123,45 @@ All four S3 public access block controls are enabled:
 The bucket uses Amazon S3 server-side encryption with AES256.
 
 Versioning remains disabled because the current application requirements do not require object version history.
+
+## Database
+
+The Cloud Operations Dashboard uses Amazon RDS for MySQL to store structured operational messages and related application data.
+
+### RDS MySQL
+
+- DB instance: cloud-operations-db
+- Engine: MySQL 8.4.9
+- Instance class: db.t3.micro
+- Database name: cloudops
+- Storage: 20 GiB
+- Region: us-east-1
+- Port: 3306
+- Public access: disabled
+- Encryption at rest: enabled
+- Backup retention: 0 days
+- Multi-AZ: disabled
+
+### Database Networking
+
+The RDS instance is deployed into the private database subnet group:
+
+- cloud-operations-db-subnet-group
+- Private subnet: cloud-operations-private-db-subnet-a
+- Private subnet: cloud-operations-private-db-subnet-b
+
+The database security group allows TCP port 3306 only from the EC2 security group.
+
+The database does not accept direct public internet traffic.
+
+### Database Security
+
+Database access is restricted through the VPC security group:
+
+- DB security group: cloud-operations-db-sg
+- EC2 security group: cloud-operations-ec2-sg
+- Allowed protocol: TCP
+- Allowed port: 3306
+- Source: EC2 security group only
+
+The RDS master password is not stored in the repository.
