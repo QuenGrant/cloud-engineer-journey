@@ -165,3 +165,21 @@ Database access is restricted through the VPC security group:
 - Source: EC2 security group only
 
 The RDS master password is not stored in the repository.
+
+## Infrastructure Testing
+
+The AWS infrastructure was validated through configuration checks and a live connectivity test.
+
+### Live EC2 to RDS Connectivity
+
+The EC2 instance successfully established a TCP connection to the RDS MySQL endpoint on port 3306.
+
+- EC2: cloud-operations-ec2
+- EC2 private IP: 10.0.4.121
+- RDS: cloud-operations-db
+- RDS port: 3306
+- Test result: TCP connection successful
+
+This confirms that the EC2 instance can reach the private RDS database through the VPC and that the RDS security group permits traffic from the EC2 security group on port 3306.
+
+The connectivity test was performed directly from the EC2 instance using Python's socket networking support.
