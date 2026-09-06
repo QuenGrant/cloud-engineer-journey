@@ -63,3 +63,36 @@ Capstone in progress.
 - Instance configuration validated
 - Instance stopped when not actively required to control AWS costs
 
+
+## IAM / Permissions
+
+The Cloud Operations Dashboard capstone uses the IAM user apprenticeship-cli for AWS CLI, Terraform, and automation activities.
+
+### IAM Identity
+
+- IAM user: apprenticeship-cli
+- AWS CLI profile: apprenticeship
+- AWS account: 432320367829
+- Identity validation: confirmed with AWS STS
+- Inline policies: none
+
+### Attached AWS Managed Policies
+
+- PowerUserAccess
+- IAMReadOnlyAccess
+- SignInLocalDevelopmentAccess
+
+### Permission Design
+
+The apprenticeship-cli identity provides broad access to AWS services required to build, deploy, automate, and operate the capstone while intentionally avoiding unrestricted IAM administration.
+
+IAMReadOnlyAccess provides IAM visibility for configuration verification and documentation.
+
+No inline IAM policies are attached to the user.
+
+### Security Consideration
+
+The IAM configuration balances operational capability with account-level protection. The capstone identity has the broad AWS service access required for hands-on development without being granted unrestricted IAM administration privileges.
+
+This reduces the potential blast radius of an accidental or unauthorized IAM change while allowing the capstone to progress without repeatedly adding individual service permissions.
+
