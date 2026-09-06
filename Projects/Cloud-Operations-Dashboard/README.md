@@ -96,3 +96,30 @@ The IAM configuration balances operational capability with account-level protect
 
 This reduces the potential blast radius of an accidental or unauthorized IAM change while allowing the capstone to progress without repeatedly adding individual service permissions.
 
+
+## Storage
+
+The Cloud Operations Dashboard uses Amazon S3 for dashboard-generated and exported files.
+
+### S3 Bucket
+
+- Bucket: cloud-operations-dashboard-432320367829
+- Region: us-east-1
+- Purpose: store dashboard-generated/exported files
+- Public access: blocked
+- Server-side encryption: SSE-S3 (AES256)
+- Versioning: disabled
+- Current objects: none
+
+### Storage Security
+
+All four S3 public access block controls are enabled:
+
+- BlockPublicAcls
+- IgnorePublicAcls
+- BlockPublicPolicy
+- RestrictPublicBuckets
+
+The bucket uses Amazon S3 server-side encryption with AES256.
+
+Versioning remains disabled because the current application requirements do not require object version history.
