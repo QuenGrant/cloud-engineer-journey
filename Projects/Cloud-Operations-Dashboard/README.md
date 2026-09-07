@@ -193,3 +193,18 @@ The Terraform infrastructure configuration is organized into separate files for 
 - `outputs.tf` - Terraform output definitions
 - `terraform.tfvars` - environment-specific variable values
 - `.gitignore` - prevents Terraform state and generated files from being committed
+
+## Terraform Variables
+
+Terraform input variables are used to provide reusable configuration values for the capstone infrastructure.
+
+The current variables define:
+
+- `aws_region` - AWS region for the capstone infrastructure
+- `vpc_id` - VPC ID for the capstone infrastructure
+- `public_subnet_id` - public subnet ID for the capstone infrastructure
+- `ec2_security_group_id` - EC2 security group ID for the capstone infrastructure
+- `db_subnet_group_name` - RDS subnet group name for the capstone infrastructure
+- `db_security_group_id` - RDS security group ID for the capstone infrastructure
+
+The variables were validated successfully with `terraform validate`.
