@@ -264,3 +264,15 @@ Terraform state tracks the relationship between the Terraform configuration and 
 The capstone currently has no Terraform state file because the existing AWS infrastructure was created before Terraform management was introduced.
 
 No `terraform apply` was performed during this section. The existing AWS infrastructure remains unchanged.
+
+## Terraform Infrastructure Integration
+
+Terraform state now tracks the existing AWS infrastructure created for the Cloud Operations Dashboard.
+
+Terraform plan confirms:
+
+- 0 resources to add
+- 3 resources to change
+- 0 resources to destroy
+
+The remaining changes are limited to Terraform-managed tags and provider defaults. No terraform apply or terraform destroy was performed. The existing AWS infrastructure remains unchanged.
