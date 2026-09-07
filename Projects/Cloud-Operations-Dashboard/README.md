@@ -229,3 +229,19 @@ The current resource configuration represents the capstone network and security 
 The Terraform configuration was validated successfully with `terraform validate`.
 
 No Terraform apply was performed during this section. The existing AWS infrastructure remains unchanged.
+
+## Terraform Data Sources
+
+Terraform data sources allow the capstone to read existing AWS infrastructure without creating new resources.
+
+The current data sources reference:
+
+- Existing VPC
+- Existing public subnet
+- Existing EC2 security group
+
+The data sources use Terraform variables to identify the existing AWS resources.
+
+The configuration was validated successfully with `terraform validate`.
+
+No Terraform apply was performed during this section. The existing AWS infrastructure remains unchanged.

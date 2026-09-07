@@ -130,3 +130,12 @@ resource "aws_db_subnet_group" "capstone" {
     Name = "cloud-operations-db-subnet-group"
   }
 }
+data "aws_vpc" "existing" {
+  id = var.vpc_id
+}
+data "aws_subnet" "public" {
+  id = var.public_subnet_id
+}
+data "aws_security_group" "ec2" {
+  id = var.ec2_security_group_id
+}
