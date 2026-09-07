@@ -245,3 +245,15 @@ The data sources use Terraform variables to identify the existing AWS resources.
 The configuration was validated successfully with `terraform validate`.
 
 No Terraform apply was performed during this section. The existing AWS infrastructure remains unchanged.
+
+## Terraform Outputs
+
+Terraform outputs expose useful values from the infrastructure configuration for use by other parts of the capstone.
+
+The current output exposes:
+
+- `vpc_id` - ID of the capstone VPC discovered through the Terraform VPC data source
+
+The configuration was validated successfully with `terraform validate`.
+
+No Terraform apply was performed during this section. The existing AWS infrastructure remains unchanged.
