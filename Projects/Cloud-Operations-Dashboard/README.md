@@ -183,3 +183,13 @@ The EC2 instance successfully established a TCP connection to the RDS MySQL endp
 This confirms that the EC2 instance can reach the private RDS database through the VPC and that the RDS security group permits traffic from the EC2 security group on port 3306.
 
 The connectivity test was performed directly from the EC2 instance using Python's socket networking support.
+
+## Terraform Project Structure
+
+The Terraform infrastructure configuration is organized into separate files for infrastructure definitions, variables, outputs, environment-specific values, and generated-file exclusions.
+
+- `main.tf` - Terraform infrastructure configuration
+- `variables.tf` - Terraform input variable definitions
+- `outputs.tf` - Terraform output definitions
+- `terraform.tfvars` - environment-specific variable values
+- `.gitignore` - prevents Terraform state and generated files from being committed
