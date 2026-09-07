@@ -257,3 +257,10 @@ The current output exposes:
 The configuration was validated successfully with `terraform validate`.
 
 No Terraform apply was performed during this section. The existing AWS infrastructure remains unchanged.
+## Terraform State
+
+Terraform state tracks the relationship between the Terraform configuration and the infrastructure Terraform manages.
+
+The capstone currently has no Terraform state file because the existing AWS infrastructure was created before Terraform management was introduced.
+
+No `terraform apply` was performed during this section. The existing AWS infrastructure remains unchanged.
