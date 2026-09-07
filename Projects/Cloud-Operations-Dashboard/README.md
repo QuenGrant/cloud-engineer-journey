@@ -208,3 +208,24 @@ The current variables define:
 - `db_security_group_id` - RDS security group ID for the capstone infrastructure
 
 The variables were validated successfully with `terraform validate`.
+
+## Terraform Resources
+
+Terraform resource blocks define the AWS infrastructure configuration for the Cloud Operations Dashboard.
+
+The current resource configuration represents the capstone network and security architecture, including:
+
+- VPC
+- Public and private database subnets
+- Internet Gateway
+- Public and private route tables
+- Route table associations
+- EC2 security group
+- EC2 SSH ingress rule
+- Database security group
+- Database MySQL ingress rule
+- RDS database subnet group
+
+The Terraform configuration was validated successfully with `terraform validate`.
+
+No Terraform apply was performed during this section. The existing AWS infrastructure remains unchanged.
