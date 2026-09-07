@@ -81,6 +81,7 @@ resource "aws_route_table_association" "private_db_b" {
   route_table_id = aws_route_table.private_db.id
 }
 resource "aws_security_group" "ec2" {
+  description = "Security group for Cloud Operations Dashboard EC2"
   name   = "cloud-operations-ec2-sg"
   vpc_id = aws_vpc.capstone.id
 
@@ -96,6 +97,7 @@ resource "aws_vpc_security_group_ingress_rule" "ec2_ssh" {
   ip_protocol       = "tcp"
 }
 resource "aws_security_group" "db" {
+  description = "Security group for Cloud Operations Dashboard database"
   name   = "cloud-operations-db-sg"
   vpc_id = aws_vpc.capstone.id
 

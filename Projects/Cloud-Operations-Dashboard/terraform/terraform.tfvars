@@ -1,0 +1,5 @@
+vpc_id                  = "vpc-049f334eaed8b6fe4"
+public_subnet_id        = "subnet-0b8ff0283cac4ba4f"
+ec2_security_group_id   = "sg-07095f95f29cd24a6"
+db_subnet_group_name    = "cloud-operations-db-subnet-group"
+db_security_group_id    = "sg-08d0471d3d71f9684"
