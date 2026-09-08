@@ -76,12 +76,12 @@ I am building deeper cloud engineering expertise through hands-on labs, infrastr
 | Cloud Engineer Portfolio Setup | ✅ Complete |
 | Git & GitHub Workflow | ✅ Complete |
 | Development Environment Setup | ✅ Complete |
-| Linux Fundamentals | 🟡 In Progress |
-| AWS Infrastructure Projects | ⬜ Planned |
-| Terraform Projects | ⬜ Planned |
-| Python Automation Projects | ⬜ Planned |
-| Docker & Kubernetes | ⬜ Planned |
-| CI/CD Implementation | ⬜ Planned |
+| Linux Fundamentals | ✅ Complete |
+| AWS Infrastructure Projects | ✅ Complete |
+| Terraform Projects | ✅ Complete |
+| Python Automation Projects | ✅ Complete |
+| Docker & Kubernetes | ✅ Complete |
+| CI/CD Implementation | ✅ Complete |
 
 ---
 
