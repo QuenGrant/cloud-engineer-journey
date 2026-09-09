@@ -284,3 +284,8 @@ Verified CloudWatch monitoring for the capstone EC2 instance by retrieving the A
 ## Section 36 — Logs
 
 Created and verified a CloudWatch Logs log group and log stream for the capstone application. Successfully wrote and retrieved a test log event, confirming application log ingestion and retrieval.
+
+## Section 37 — Application / Infrastructure Health
+
+Verified EC2 infrastructure state and application readiness. Confirmed the EC2 instance can be stopped for cost control, the application passes Python syntax validation, and the application correctly requires database connectivity. Local execution was not completed because the production RDS database is private and no local database configuration was present.
+
