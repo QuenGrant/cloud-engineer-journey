@@ -289,3 +289,8 @@ Created and verified a CloudWatch Logs log group and log stream for the capstone
 
 Verified EC2 infrastructure state and application readiness. Confirmed the EC2 instance can be stopped for cost control, the application passes Python syntax validation, and the application correctly requires database connectivity. Local execution was not completed because the production RDS database is private and no local database configuration was present.
 
+
+## Section 38 — Troubleshooting
+
+Troubleshot the application database connection failure by comparing the runtime environment with the configuration template. Confirmed DB_HOST is read from the environment, the RDS endpoint is defined in .env.example, no local .env file was present, and no dotenv dependency is configured. Identified the local connection failure as missing runtime database environment variables rather than an application code or RDS configuration error.
+
