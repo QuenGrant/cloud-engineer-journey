@@ -280,3 +280,7 @@ The remaining changes are limited to Terraform-managed tags and provider default
 ## Section 35 — CloudWatch / Monitoring
 
 Verified CloudWatch monitoring for the capstone EC2 instance by retrieving the AWS/EC2 CPUUtilization metric. Confirmed metric data was available while the instance was running, then stopped the instance for cost control.
+
+## Section 36 — Logs
+
+Created and verified a CloudWatch Logs log group and log stream for the capstone application. Successfully wrote and retrieved a test log event, confirming application log ingestion and retrieval.
