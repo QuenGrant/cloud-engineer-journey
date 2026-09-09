@@ -22,7 +22,7 @@ jobs:
           python-version: "3.12"
 
       - name: Install dependencies
-        run: pip install -r application/requirements.txt
+        run: pip install -r Projects/Cloud-Operations-Dashboard/application/requirements.txt
 
       - name: Syntax check
-        run: python -m py_compile application/app.py
+        run: python -m py_compile Projects/Cloud-Operations-Dashboard/application/app.py

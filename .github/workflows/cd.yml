@@ -17,7 +17,7 @@ jobs:
         uses: actions/checkout@v4
 
       - name: Build Docker image
-        run: docker build -f docker/Dockerfile -t cloud-operations-dashboard .
+        run: docker build -f Projects/Cloud-Operations-Dashboard/docker/Dockerfile -t cloud-operations-dashboard Projects/Cloud-Operations-Dashboard
 
       - name: Deployment placeholder
         run: echo "Deployment stage ready for EC2 integration"
