@@ -276,3 +276,7 @@ Terraform plan confirms:
 - 0 resources to destroy
 
 The remaining changes are limited to Terraform-managed tags and provider defaults. No terraform apply or terraform destroy was performed. The existing AWS infrastructure remains unchanged.
+
+## Section 35 — CloudWatch / Monitoring
+
+Verified CloudWatch monitoring for the capstone EC2 instance by retrieving the AWS/EC2 CPUUtilization metric. Confirmed metric data was available while the instance was running, then stopped the instance for cost control.
