@@ -299,3 +299,7 @@ Troubleshot the application database connection failure by comparing the runtime
 
 Validated the persistent AWS components of the capstone without starting unnecessary compute resources. Confirmed the EC2 instance is stopped, the RDS MySQL database is available, the S3 bucket exists, the CloudWatch Logs group exists, the VPC is available, and both EC2 and database security groups are present.
 
+
+## Section 40 - IAM Security Review
+
+Reviewed the capstone IAM user and confirmed three directly attached managed policies: IAMReadOnlyAccess, PowerUserAccess, and SignInLocalDevelopmentAccess. Confirmed there are no inline policies, no IAM group memberships, and no permissions boundary. Identified PowerUserAccess as the broadest attached permission set and documented the finding without making IAM changes.
