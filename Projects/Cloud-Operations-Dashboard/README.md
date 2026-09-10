@@ -323,3 +323,7 @@ Validated the capstone application, Docker configuration, CI/CD workflows, and E
 ## Section 46 - Failure / Recovery Testing
 
 Validated controlled application failure and recovery behavior. Confirmed the application fails when required database connectivity is unavailable, returns a failure exit code, and remains syntactically valid after the failure. Removed generated test artifacts and verified a clean working tree.
+
+## Section 47 - AWS Resource / Cost Cleanup Validation
+
+Validated AWS resource cost-control practices. Confirmed temporary compute resources are returned to a stopped state when not in use and documented the cleanup validation for the capstone environment.
