@@ -303,3 +303,7 @@ Validated the persistent AWS components of the capstone without starting unneces
 ## Section 40 - IAM Security Review
 
 Reviewed the capstone IAM user and confirmed three directly attached managed policies: IAMReadOnlyAccess, PowerUserAccess, and SignInLocalDevelopmentAccess. Confirmed there are no inline policies, no IAM group memberships, and no permissions boundary. Identified PowerUserAccess as the broadest attached permission set and documented the finding without making IAM changes.
+
+## Section 41 - Network Security Review
+
+Reviewed the capstone network security configuration and confirmed SSH access to the EC2 security group is restricted to 98.122.34.115/32, MySQL access to the database security group is restricted to the EC2 security group, public subnets use an Internet Gateway route without automatic public IP assignment, private database subnets use local VPC routing only, and all database subnets have automatic public IP assignment disabled.
