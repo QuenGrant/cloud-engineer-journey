@@ -315,3 +315,7 @@ Reviewed infrastructure security and confirmed the RDS MySQL database is not pub
 ## Section 44 - Full-System Integration
 
 Verified integration across the capstone application, Docker, CI/CD, Terraform, and AWS infrastructure layers. Confirmed Terraform configuration validity, reviewed Terraform-managed resources, and validated a plan with zero additions and zero destroys without applying changes.
+
+## Section 45 - End-to-End Testing
+
+Validated the capstone application, Docker configuration, CI/CD workflows, and EC2 environment. Confirmed the application exposes the expected endpoints, Docker exposes port 5000 and starts the application, CI validates dependencies and Python syntax, and CD builds the Docker image. Identified the remaining deployment gap: the CD workflow currently contains a deployment placeholder, so application execution through EC2 was not completed.
