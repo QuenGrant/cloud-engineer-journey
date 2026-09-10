@@ -319,3 +319,7 @@ Verified integration across the capstone application, Docker, CI/CD, Terraform, 
 ## Section 45 - End-to-End Testing
 
 Validated the capstone application, Docker configuration, CI/CD workflows, and EC2 environment. Confirmed the application exposes the expected endpoints, Docker exposes port 5000 and starts the application, CI validates dependencies and Python syntax, and CD builds the Docker image. Identified the remaining deployment gap: the CD workflow currently contains a deployment placeholder, so application execution through EC2 was not completed.
+
+## Section 46 - Failure / Recovery Testing
+
+Validated controlled application failure and recovery behavior. Confirmed the application fails when required database connectivity is unavailable, returns a failure exit code, and remains syntactically valid after the failure. Removed generated test artifacts and verified a clean working tree.
