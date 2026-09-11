@@ -70,7 +70,7 @@ AWS resources are stopped or removed when they are not required for active devel
 
 ## Status
 
-Capstone in progress.
+Capstone complete - 55/55 sections completed.
 
 ## EC2 Compute Layer
 
