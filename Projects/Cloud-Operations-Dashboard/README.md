@@ -12,6 +12,16 @@ The Cloud Operations Dashboard is an AWS-based cloud engineering capstone design
 - Docker: Application containerization
 - GitHub Actions: CI/CD workflow
 
+## Project Highlights
+
+- Designed and documented an AWS cloud architecture using VPC networking, EC2, RDS MySQL, S3, IAM, and CloudWatch.
+- Built a Python Flask application backed by a private MySQL database.
+- Containerized the application with Docker.
+- Managed infrastructure configuration with Terraform.
+- Implemented Python/Boto3 automation for AWS resource operations.
+- Built GitHub Actions CI/CD workflows for validation and Docker image builds.
+- Documented security, monitoring, troubleshooting, failure recovery, and operational validation.
+
 ## Architecture
 
 ![Cloud Operations Dashboard Architecture](./architecture.svg)
