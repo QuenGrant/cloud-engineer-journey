@@ -335,3 +335,7 @@ Validated the Terraform infrastructure configuration and confirmed it remains va
 ## Section 49 - README / Architecture Documentation
 
 Documented the Cloud Operations Dashboard architecture and the relationship between the application, Docker, CI/CD, Terraform, AWS networking, compute, database, storage, and monitoring layers.
+
+## Section 50 - Deployment Documentation
+
+Documented the capstone deployment flow from GitHub CI validation to Docker image creation and the CD deployment stage. The current CD workflow builds the Docker image and retains an EC2 deployment placeholder because automated application deployment to EC2 has not been implemented.
