@@ -339,3 +339,7 @@ Documented the Cloud Operations Dashboard architecture and the relationship betw
 ## Section 50 - Deployment Documentation
 
 Documented the capstone deployment flow from GitHub CI validation to Docker image creation and the CD deployment stage. The current CD workflow builds the Docker image and retains an EC2 deployment placeholder because automated application deployment to EC2 has not been implemented.
+
+## Section 51 - Troubleshooting Documentation
+
+Documented the capstone troubleshooting findings, including missing database runtime configuration, unavailable local database connectivity, and the distinction between application configuration issues and AWS infrastructure availability.
