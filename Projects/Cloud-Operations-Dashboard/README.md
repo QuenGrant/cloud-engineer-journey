@@ -6,6 +6,8 @@ The Cloud Operations Dashboard is an AWS-based cloud engineering capstone design
 
 ## Architecture
 
+![Cloud Operations Dashboard Architecture](./architecture.svg)
+
 The application is designed to run inside a dedicated AWS VPC.
 
 ### Current Infrastructure
