@@ -308,6 +308,10 @@ Reviewed the capstone IAM user and confirmed three directly attached managed pol
 
 Reviewed the capstone network security configuration and confirmed SSH access to the EC2 security group is restricted to 98.122.34.115/32, MySQL access to the database security group is restricted to the EC2 security group, public subnets use an Internet Gateway route without automatic public IP assignment, private database subnets use local VPC routing only, and all database subnets have automatic public IP assignment disabled.
 
+## Section 42 - Secrets / Configuration Review
+
+Reviewed secrets and configuration handling and added Git ignore rules for environment files, including application/.env, .env, and *.env, to prevent local environment configuration from being tracked.
+
 ## Section 43 - Infrastructure Security Review
 
 Reviewed infrastructure security and confirmed the RDS MySQL database is not publicly accessible and has storage encryption enabled, the S3 bucket blocks all public access and uses AES256 server-side encryption, and the EC2 instance is stopped with no public IP assigned.
